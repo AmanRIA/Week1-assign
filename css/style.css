@@ -173,6 +173,22 @@ body {
   color:#cf711f;
   font-weight: 700;
 }
+.section-how{
+  padding:9.6rem 0;
+  /* background-color: o; */
+}
+
+.step-img{
+  width:50%;
+}
+
+.step-number{
+  font-size: 8.6rem;
+  font-weight: 600;
+  color:#ddd;
+  margin-bottom: 1.2rem;
+  
+}
 
 
 .container {
@@ -184,8 +200,9 @@ body {
 
 .grid {
   display: grid;
-  column-gap: 6.4rem;
-  row-gap: 9.6rem;
+  /* column-gap: 6.4rem; */
+  /* row-gap: 9.6rem; */
+  gap: 9.6rem;
 }
 
 .grid:not(:last-child) {
